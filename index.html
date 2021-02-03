@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hola! soy Kelvin Silvestre</title>
     <link rel="icon" type="img/png" href="/img/favicon.png">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
@@ -16,13 +17,13 @@
         <nav>
             <ol>
                 <li>
-                    <a href="#">Portafolio</a>
+                    <a href="#portafolio">Portafolio</a>
                 </li>
                 <li>
-                    <a href="#">Experienci</a>
+                    <a href="#Experiencia">Experiencia</a>
                 </li>
                 <li>
-                    <a href="#">Trabajemos juntos</a>
+                    <a href="#contacto">Trabajemos juntos</a>
                 </li>
             </ol>
         </nav>
@@ -33,7 +34,7 @@
         </h1>
         <img src="img/hero.jpg" alt="imagen de portada" width="500px">
     </section>
-    <section>
+    <section id="portafolio">
         <h2>Portafolio (Proyectos Destacados)</h2>
         <article>
             <h3>Platzi Video</h3>
@@ -44,7 +45,7 @@
             <img src="img/platzi-video-react-native.png" alt="proyecto del curso react native">
         </article>
     </section>
-    <section>
+    <section id="Experiencia">
         <h2>Más sobre mi experiencia</h2>
         <article>
             <figure>
@@ -52,10 +53,16 @@
             </figure>
             <h3>PlatziConf Mexico 2020</h3>
             <p>Lorem fistrum torpedo hasta luego Lucas llevame al sircoo al ataquerl aliqua. Caballo blanco caballo negroorl de la pradera</p>
-            <a href="">Ver Plática</a>
+            <a href="https://www.youtube.com/watch?v=ajLJOhf-WdA" target="_blank">Ver Plática</a>
         </article>
     </section>
-    <section>sección contactos</section>
+    <section id="contacto">
+        <form action="">
+            <h3>¿Creamos algo juntos?</h3>
+            <input type="email" placeholder="Dejanos tu email" value="@gmail.com" id="email">            
+            <button>Enviar</button>
+        </form>
+    </section>
     <footer>footer</footer>
 </body>
 </html>
