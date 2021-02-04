@@ -1,3 +1,18 @@
-header {
+/* Reglas
+selectores 
+declaraciones 
+propiedades 
+valores */
+
+/* header {
     background-color: teal;
+    color: white; 
+} */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
 }
